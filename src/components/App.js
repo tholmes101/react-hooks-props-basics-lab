@@ -15,8 +15,6 @@ function App() {
       <NavBar />
       <Home name={user.name} color={user.color} city={user.city} />
       <About bio={user.bio} links={user.links}/>
-      <Links github={user.links.github} 
-             linkedin={user.links.linkedin}/>
     </div>
   );
 }
